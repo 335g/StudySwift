@@ -1,3 +1,3 @@
-## Study
+## StudySwift
 
 

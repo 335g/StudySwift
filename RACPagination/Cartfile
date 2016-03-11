@@ -1,0 +1,4 @@
+github "ReactiveCocoa/ReactiveCocoa" ~> 4.0
+github "ikesyo/Himotoki" ~> 1.6
+github "ishkawa/APIkit" ~> 1.1
+github "kylef/WebLinking.swift" ~> 1.0.0

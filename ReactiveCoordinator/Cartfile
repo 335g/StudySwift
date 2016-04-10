@@ -1,0 +1,2 @@
+github "ReactiveCocoa/ReactiveCocoa" ~> 4.1
+github "neilpa/Rex" ~> 0.10

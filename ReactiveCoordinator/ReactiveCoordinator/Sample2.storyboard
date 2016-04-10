@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LLE-f8-H5N">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Sample2 View Controller-->
+        <scene sceneID="rk2-Yf-v5D">
+            <objects>
+                <viewController id="LLE-f8-H5N" customClass="Sample2ViewController" customModule="ReactiveCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dbT-Bg-25t"/>
+                        <viewControllerLayoutGuide type="bottom" id="XJP-os-nBA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jg8-P0-smL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VZp-F2-8cj" userLabel="textView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VZp-F2-8cj" firstAttribute="width" secondItem="jg8-P0-smL" secondAttribute="width" id="DB1-6y-1tI"/>
+                            <constraint firstItem="VZp-F2-8cj" firstAttribute="centerY" secondItem="jg8-P0-smL" secondAttribute="centerY" id="J0p-1f-WQs"/>
+                            <constraint firstItem="VZp-F2-8cj" firstAttribute="centerX" secondItem="jg8-P0-smL" secondAttribute="centerX" id="Uze-QW-8Q5"/>
+                            <constraint firstItem="VZp-F2-8cj" firstAttribute="height" secondItem="jg8-P0-smL" secondAttribute="height" id="x3w-lc-5Eg"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="done" systemItem="done" id="XGY-Cl-v89"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="300"/>
+                    <connections>
+                        <outlet property="doneButton" destination="XGY-Cl-v89" id="lci-DN-8yt"/>
+                        <outlet property="textView" destination="VZp-F2-8cj" id="siC-va-kuI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Koc-gr-NE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="276"/>
+        </scene>
+    </scenes>
+</document>
